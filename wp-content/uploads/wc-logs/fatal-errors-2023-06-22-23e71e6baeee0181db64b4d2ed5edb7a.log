@@ -1,0 +1,534 @@
+2023-06-22T02:44:10+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T02:46:15+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T02:57:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T02:58:49+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:04:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:04:23+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:05:30+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:06:02+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:06:49+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:06:51+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:07:07+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:07:20+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:07:31+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:07:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:07:36+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#7 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#9 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:15:11+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#3 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:15:31+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#3 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:15:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#3 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:15:36+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#3 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:15:38+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#3 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:17:55+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#3 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T03:17:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:55
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(55): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#3 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 55
+
+2023-06-22T04:46:16+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-06-22T04:49:25+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-06-22T04:49:28+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-06-22T04:49:35+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-06-22T04:50:09+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-06-22T06:21:36+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-06-22T06:32:10+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-06-22T06:33:44+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-06-22T06:33:46+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-06-22T06:36:06+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-06-22T06:40:03+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-06-22T06:40:08+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#2 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(145): UxBuilder\Transformers\ArrayToString->transform(Array, Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(50): UxBuilder\Transformers\ArrayToString->get_content(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#6 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#7 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#10 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-06-22T06:44:21+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#3 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
+2023-06-22T06:45:39+00:00 CRITICAL Uncaught Error: Unknown named parameter $item in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php:57
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php(57): call_user_func_array(Object(Closure), Array)
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Ajax\PostSaver.php(36): UxBuilder\Transformers\ArrayToString->transform(Array)
+#2 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(308): UxBuilder\Ajax\PostSaver->save('')
+#3 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\demo\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\demo\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ux_buil...')
+#6 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\builder\core\server\src\Transformers\ArrayToString.php on line 57
+
